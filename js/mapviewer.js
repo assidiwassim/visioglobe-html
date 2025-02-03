@@ -38,7 +38,8 @@ function init() {
     //essential.setParameters({parameters: {baseURL: '../data.bundles/data_test', hash: '', setPlaceNameOptions:{zoomScaleFactor:0.5} }});
 
     // loading a remote bundle: com.visioglobe.sdk/visio.island hosted on mapserver.visioglobe.com
-     essential.setParameters({parameters: {baseURL: 'https://mapserver.visioglobe.com/', hash: 'dev-k8920c717b10bf61a3c343410851fcb7dbb808d6e'}});
+   //  essential.setParameters({parameters: {baseURL: 'https://mapserver.visioglobe.com/', hash: 'dev-k8920c717b10bf61a3c343410851fcb7dbb808d6e'}});
+     essential.setParameters({parameters: {baseURL: 'https://mapserver.visioglobe.com/', hash: 'kf8c4780d7f58387df3e142068450cc86f28045d1'}});
 
     // loading your own map using a web hash. NB: default baseURL is 'https://mapserver.visioglobe.com/' so no need to set it unless your map is hosted somewhere else
     // essential.setParameters({parameters: {hash: 'your_map_hash'}});
